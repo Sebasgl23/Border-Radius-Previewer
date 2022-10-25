@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(68, 62, 62);
+    font-family: 'KT Nirma', sans-serif;
+    font-size: 25px;
+}
+
+.title
+{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+@media (max-width: 1000px) {
+    .element
+    {
+        height: 500px;
+        width: 50%;
+        border: 1px solid white;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+  }
+
+@media (min-width: 1000px) {
+    .element
+    {
+        height: 300px;
+        width: 25%;
+        border: 1px solid white;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+  }
+
+.text
+{
+    margin: auto;
+    padding: 50px;
+    font-size: 18px;
+    color: white;
+}
+
+
+.numbers
+{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin-top: 100px;
+    margin: auto;
+}
+
+.number-container
+{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-top: 100px;
+    margin: auto;
+    color: white;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.number-container input
+{
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+button {
+    margin: auto;
+    width: 25%;
+}
